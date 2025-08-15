@@ -37,38 +37,33 @@ A full-stack URL shortening service built with React, Node.js, Express, and Mong
    ```bash
    git clone https://github.com/your-username/url-shortener.git
    cd url-shortener
-Set up the backend
-
-bash
-cd url-shortener-backend
-npm install
-Configure environment variables
+2. **Set up the backend**
+   ```bash
+   cd url-shortener-backend
+   npm install```
+3. **Configure environment variables**
 Create a .env file in the backend directory:
-
-env
-MONGODB_URI=mongodb://localhost:27017/urlshortener
-PORT=5000
-Set up the frontend
-
-bash
-cd ../url-shortener-frontend
-npm install
-Running the Application
+   ```bash
+   MONGODB_URI=mongodb://localhost:27017/urlshortener
+   PORT=5000
+4. **Set up the frontend**
+   ```bash
+   cd ../url-shortener-frontend
+   npm install
+5. **Running the Application**
 Start the backend server
-
-bash
-cd url-shortener-backend
-node server.js
-Start the frontend development server
-
-bash
-cd url-shortener-frontend
-npm start
-Access the application
+   ```bash
+   cd url-shortener-backend
+   node server.js
+6. **Start the frontend development server**
+   ```bash
+   cd url-shortener-frontend
+   npm start
+7. **Access the application**
 Open http://localhost:3000 in your browser
 
-Project Structure
-text
+### Project Structure
+
 url-shortener/
 ├── url-shortener-backend/       # Backend code
 │   ├── models/                  # MongoDB models
@@ -87,7 +82,8 @@ url-shortener/
 │
 ├── .gitignore
 └── README.md                   # This file
-API Endpoints
+
+### API Endpoints
 Endpoint	Method	Description
 /shorten	POST	Create a new short URL
 /:shortCode	GET	Redirect to original URL
