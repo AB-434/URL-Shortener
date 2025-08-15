@@ -90,5 +90,3 @@ url-shortener/
 | `/shorten`       | POST   | Create a new short URL            |
 | `/:shortCode`    | GET    | Redirect to the original URL      |
 | `/api/urls`      | GET    | Get all shortened URLs            |
-
-/api/urls	GET	Get all shortened URLs
