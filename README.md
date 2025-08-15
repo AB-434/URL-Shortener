@@ -84,7 +84,11 @@ url-shortener/
 └── README.md                   # This file
 
 ### API Endpoints
-Endpoint	Method	Description
-/shorten	POST	Create a new short URL
-/:shortCode	GET	Redirect to original URL
+
+| Endpoint         | Method | Description                       |
+|------------------|--------|-----------------------------------|
+| `/shorten`       | POST   | Create a new short URL            |
+| `/:shortCode`    | GET    | Redirect to the original URL      |
+| `/api/urls`      | GET    | Get all shortened URLs            |
+
 /api/urls	GET	Get all shortened URLs
